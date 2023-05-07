@@ -3,30 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href= "style.css">
-    <title>Profile</title>
+    <title>MyProfile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      header {
+        background-color: #060e3a;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 36px;
+      }
+      .container {
+        margin: 20px auto;
+        max-width: 800px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px #bbb;
+      }
+      img {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 36px;
+        margin-top: 10;
+      }
+      h2 {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <div class="title"class="card">
-        <article>
-            <h1>MyProfile</h1>
-        </article>
-    </div>
+      <h1>MyProfile</h1>
     </header>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="foto/foto1.jpg" alt="Foto Profil">
-        </div>
-        <div class="col-md-8">
-          <h1>AFIF AULIA RAHMAN</h1>
-          <h3>COMPUTER ENGINEERING SCHOLAR</h3>
-          <p>I am a computer engineering student who has an interest in personal and managerial development and has a focus on the development 
-            of IoT and Embedded System technology. And I am a Bangkit Academy student who focuses on Cloud Computing Studies.
-          </p>
-        </div>
-      </div>
+      <img src="https://storage.googleapis.com/fotoprofile-afifar/photo_2023-05-03_19-44-36.jpg" alt="Profile Picture">
+      <h1>AFIF AULIA RAHMAN</h1>
+      <h2>COMPUTER ENGINEERING SCHOLAR</h2>
+      <p>I am a computer engineering student who has an interest in personal and managerial development and has a focus on the development 
+        of IoT and Embedded System technology. And I am also a Bangkit Academy student who focuses on Cloud Computing Studies.</p>
+      <p>My skills include:</p>
+      <ul>
+        <li>C/C++</li>
+        <li>JavaScript</li>
+        <li>Phyton</li>
+        <li>HTML & CSS</li>
+        <li>MySQL</li>
+      </ul>
+      <p>If you'd like to get in touch, please <a href="mailto:afifng4ng4@gmail.com">email me</a>.</p>
     </div>
   </body>
 </html>
